@@ -1,5 +1,5 @@
 ## Quick Start
-AWS Cloudwatch Log Insights is a power query tool allowing you to perform complex queries on log events stored in Cloudwatch Log Groups.
+Amazon CloudWatch Logs Insights is a power query tool allowing you to perform complex queries on log events stored in CloudWatch Log Groups.
 
 This is particularly useful to check legacy applications security group rules are still in use, or can be removed based on factual network traffic analysis.
 
@@ -13,7 +13,7 @@ In this example a repeatable query can be deployed to analyse VPC Flowlogs to pr
 - 25-smtp
 
 ### Deploy New Stack
-To deploy the Cloudwatch Log Insight query, you simply specify the elastic network interface id of interest and the target prefix for the query to be retrived from in the saved queries list.
+To deploy the CloudWatch Log Insight query, you simply specify the elastic network interface id of interest and the target prefix for the query to be retrieved from the saved queries list.
 
 ```bash
 aws cloudformation create-stack \
